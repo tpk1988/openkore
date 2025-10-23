@@ -511,3 +511,4 @@ new_5-3 79 62 obs box
 new_5-3 65 23 obs box
 new_5-3 108 132 obs box
 moc_para01 39 27 obs box
+moc_para01 185 107 Nyarom

@@ -227,7 +227,7 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap new_3-3
+lockMap new_4-3
 lockMap_x
 lockMap_y
 lockMap_randX
