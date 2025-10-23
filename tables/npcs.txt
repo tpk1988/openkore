@@ -1,0 +1,453 @@
+izlude 135 51 Raket#Raket
+izlude 133 113 Guide#02izlude
+izlude 131 148 Eden Teleport Officer#3
+izlude 128 148 Kafra Employee#iz
+izlude 133 149 Guild Warehouse Manager
+izlude 147 131 Repairing Blacksmith#0
+izlude 145 122 Tadde#iz
+izlude 122 105 Channel Warp Official
+izlude 148 122 Refining Maniac#iz
+izlude 153 121 Refining Machine Wagjak
+izlude 153 126 Refinery Owner Han#iz
+izlude 132 54 Jerrymon#jerry2
+izlude 172 73 Scamp#iz
+izlude 179 75 Airship#iz
+izlude 202 75 Airship Staff#izlude
+izlude 132 49 Gein#Gein
+izlude 129 49 Soup#Soup
+izlude 126 53 Sirood#SRD2
+iz_d04_i 134 223 Jane#Jane01
+iz_d04_i 142 216 Sunrin#Sun01
+iz_d04_i 125 226 Sirood#SRD4
+iz_d04_i 127 228 Jerrymon#jerry3
+iz_d04_i 127 224 Lister#ristar
+iz_d04_i 134 228 Horen#Horen
+iz_d04_i 146 226 Nick#Nick01
+moc_para01 31 14 voices_in_your_head
+moc_para01 41 20 Card Trader Advanced
+moc_para01 44 19 Cat Paw Agent#gekk
+moc_para01 38 13 Universal Rental NPC
+moc_para01 34 165 Talisman Merchant#over_
+moc_para01 41 23 Card Trader Mid
+moc_para01 39 23 Card Trader Low
+moc_para01 43 13 Wise Old Woman#eAcustom
+moc_para01 34 167 Mado Merchant#over_mado
+moc_para01 38 185 Refine Master
+moc_para01 34 171 Bullet Merchant#over_bu
+moc_para01 187 94 Gacha Machine
+moc_para01 29 171 Malacus#1
+moc_para01 26 185 Rahim#2
+moc_para01 172 164 Archaeologist Aures#atn
+moc_para01 16 174 Crazed Hatter
+moc_para01 26 173 Sane Quester
+moc_para01 134 160 Suhnmi#eden
+moc_para01 13 173 Rental Items
+moc_para01 10 181 Guild Warehouse Manager
+moc_para01 32 179 Coto#2
+moc_para01 21 185 Masamune
+moc_para01 34 173 Arrow Merchant#over_arr
+moc_para01 41 169 Kafra Stacker#eden
+moc_para01 34 169 Kunai Merchant#over_kun
+moc_para01 38 162 Code the Redeemer#Give1
+moc_para01 38 175 Secretary Lime Evenor#e
+moc_para01 48 175 86-90 Mission Board
+moc_para01 48 177 91-99 Mission Board
+moc_para01 35 23 Kafra Teleportation#ede
+moc_para01 43 23 Card Trader High
+moc_para01 53 30 Heave#booster
+moc_para01 33 34 VIP Tickets
+moc_para01 53 34 Skill Copier
+moc_para01 41 76 Ragi#1
+moc_para01 44 81 Melody-Jack#1
+moc_para01 37 95 Gelkah#1
+moc_para01 41 95 Rohtert#12
+moc_para01 29 95 Runane#sara
+moc_para01 28 75 Hafel
+moc_para01 26 95 Roel#sara
+moc_para01 17 77 Aigu#1
+moc_para01 17 95 Mingmin#1
+moc_para01 106 38 Market Group Hustler#en
+moc_para01 38 38 Mission [26 - 40]
+moc_para01 36 38 Mission [11 - 25]#Tuto
+moc_para01 33 24 obs box
+moc_para01 47 18 obs box
+izlude 130 70 obs box
+izlude 128 158 Vendor from Milk Ranch#
+izlude 136 160 Fish Tails
+geffen 117 37 Cool Event Staff#gef
+geffen 122 37 Kafra Voting Staff#gef
+geffen 132 38 Bard#2
+geffen 129 46 Gefenia Warp Access
+geffen 129 49 Point Merchant#Geffen
+geffen 119 48 Fountain#s
+geffen 120 62 Kafra Employee
+geffen 118 62 Guide#02geffen
+geffen 135 64 Phantasmagorika Spokesp
+prontera 114 77 Dolangmal#1
+prontera 121 72 Royal Messenger#e16_pr
+prontera 121 77 Phantasmagorika Spokesp
+prontera 123 83 Maroll Battle Recruiter
+prontera 141 97 Warmhearted woman
+prontera 146 89 Kafra Employee
+prontera 143 87 Kafra Teleportation#pro
+prontera 145 87 Zonda Teleportation#pro
+prontera 146 95 Mushi the Warper
+prontera 147 125 Cool Event Staff#prt
+prontera 164 125 Kafra Voting Staff#prt
+prontera 160 133 YuPi#pront
+prontera 163 178 Mado Gear Armorer#prt
+prontera 154 187 Guide#01prontera
+prontera 165 194 Gondul#13
+prt_in 162 133 Talisman Merchant#over_
+prt_in 172 132 Armor Dealer#prt
+prt_in 162 135 Arrow Merchant#over_arr
+prt_in 172 130 Weapon Dealer#prt
+prontera 168 228 Rune Merchant#prt
+prt_in 175 50 Library Girl#pront
+prt_in 168 56 Monster Encyclopedia#pr
+prt_in 168 68 Blacksmith Guide#pront
+prt_in 157 66 Jerrymon#jerry
+prt_in 162 68 Vending Guide#pront
+prt_in 161 50 Monster Encyclopedia#3p
+prt_in 159 56 Monster Encyclopedia#2p
+payon 157 54 An Old Woman#pa0829
+payon 160 67 Guide#01payon
+payon 173 82 Young Man#2payon
+payon 163 96 Gemstone Bagger#20
+payon 176 104 Kafra Teleportation#pay
+payon 166 102 Riding Creature Master#
+payon 178 104 Zonda Teleportation#pay
+payon 177 111 Eden Teleport Officer#1
+payon 181 104 Kafra Employee
+payon 178 108 Bulletin Board#06
+payon 166 106 Mado Gear Armorer#pay
+payon 180 106 Guild Warehouse Manager
+payon 186 104 Smile Assistance#pay
+payon 174 113 Phantasmagorika Spokesp
+payon 189 105 Maroll Battle Recruiter
+payon 165 116 Request Board#JQ_SH
+moc_para01 26 15 Primo d'Buffer
+moc_para01 22 16 Catalog Magician#catal0
+moc_para01 32 30 Spike
+moc_para01 29 30 Job Master
+moc_para01 26 30 Tool Dealer#mp
+moc_para01 14 32 Aperture#acolytewarp
+moc_para01 29 35 VIP Status
+moc_para01 27 35 Secretary Lime Evenor
+moc_para01 25 23 Eden Herald
+moc_para01 20 35 Office Assistant Neede
+moc_para01 25 35 Instructor Boya#para01
+moc_para01 23 30 Repair Man#eden
+moc_para01 23 35 Instructor Ur#2nd01
+moc_para01 17 37 Vending Machine for Nov
+moc_para01 16 22 Old Adventurer#eden
+moc_para01 14 19 Old scholar#lv200
+moc_para01 13 22 Merry Badger#xch
+moc_para01 12 26 Instance Warper#all
+moc_para01 29 24 obs box
+izlude 131 110 obs box
+izlude 130 63 obs box
+prontera 124 76 Eden Teleport Officer#1
+prontera 105 87 Gift Merchant#prt
+prontera 123 102 Merchant#pron
+prontera 137 125 Cash Sales Guide#pronte
+payon 161 54 Exotic Merchant#pa0829
+payon 161 50 Strong Looking Man#pa82
+payon 168 65 Royal Messenger#e16_pa
+payon 179 66 Dashia
+iz_d04_i 129 232 Gatekeeper#guard1
+iz_d04_i 128 119 obs box
+iz_d04_i 129 232 Gatekeeper#guard1
+payon 159 96 Tool Dealer#pay3
+iz_d04_i 128 41 obs box
+iz_d04_i 194 77 obs box
+iz_d04_i 145 38 obs box
+iz_d04_i 145 38 obs box
+iz_d04_i 117 55 obs box
+iz_d04_i 130 104 obs box
+iz_d04_i 239 264 obs box
+iz_d04_i 186 46 obs box
+iz_d04_i 45 169 obs box
+iz_d04_i 145 105 obs box
+iz_d04_i 134 115 obs box
+iz_d04_i 158 136 obs box
+iz_d04_i 156 139 obs box
+iz_d04_i 215 142 obs box
+iz_d04_i 215 142 obs box
+iz_d04_i 146 116 obs box
+iz_d04_i 146 116 obs box
+iz_d04_i 196 197 obs box
+iz_d04_i 118 115 obs box
+iz_d04_i 119 110 obs box
+iz_d04_i 145 136 obs box
+iz_d04_i 105 80 obs box
+iz_d04_i 105 80 obs box
+iz_d04_i 87 152 obs box
+iz_d04_i 224 34 obs box
+iz_d04_i 147 94 obs box
+iz_d04_i 148 35 obs box
+iz_d04_i 59 107 obs box
+iz_d04_i 113 120 obs box
+iz_d04_i 167 42 obs box
+iz_d04_i 250 230 obs box
+new_4-3 96 30 Training Instructor#4f
+payon 155 96 Cat Paw Shrimp Merchant
+payon 157 96 Advanced Potion Merchan
+payon 168 314 Lospii#payon
+payon 135 320 Chungwolmang
+payon 134 211 Young Man#payon
+payon 160 183 Sign#payon
+payon 166 177 Bright Arbor#12
+payon 166 161 Bamboo Grove Hill#12
+payon 157 146 Suhnbi#cash
+payon 182 132 Grout'he Tuccok#hellion
+payon 177 131 Pet Groomer#pay
+payon 180 130 Rare Diamond Merchant#7
+moc_para01 44 38 Mission [71 - 85]
+moc_para01 42 38 Mission [56 - 70]
+moc_para01 40 38 Mission [41 - 55]
+moc_para01 47 39 #warp_2_pass
+moc_para01 50 39 Eve Natalia
+moc_para01 53 37 Eat Gear Mimic
+prontera 106 116 Merideth#pront
+prontera 78 150 Dairenne#pront
+prontera 58 182 Flower Girl#prt
+prontera 29 200 Guide#03prontera
+prt_fild05 303 169 Worm Peelings
+prt_fild05 189 291 #tr120005
+prt_fild05 270 212 Culvert Guardian
+prt_fild05 292 226 Gemstone Bagger#23
+prt_fild05 290 221 Tool Dealer#Extended_Pr
+prt_fild05 290 224 Kafra Employee
+prt_fild05 278 220 Signpost#Culvert
+prt_fild05 174 238 Veggie Enchanter#0
+prt_fild05 145 235 Emily#0
+sp_cor 111 177 Eden Teleport Officer#3
+sp_cor 63 144 Worker#171_rvs_44
+sp_cor 134 168 Tool Dealer#sp
+sp_cor 234 113 Worker#171_rvs_28
+sp_cor 94 166 Varmundt Biosphere Acce
+sp_cor 94 175 Rudus Access
+sp_cor 115 177 Kafra Employee
+sp_cor 121 178 Guild Warehouse Manager
+new_5-3 96 30 Training Instructor#5f
+moc_para01 162 23 Stylist#custom_stylist
+moc_para01 172 28 Eden's Intern#eden
+moc_para01 163 32 Episode Skipper
+moc_para01 174 33 Bathory#2012spirits
+new_5-3 96 30 Training Instructor#5f
+sp_cor 106 126 Module Trader#171
+sp_cor 106 103 #171_rvs_44
+sp_cor 136 128 Sentinel#171_rvs_35
+sp_cor 121 138 Goni#171_cor
+sp_cor 125 140 Kaya Tos#171_cor2
+sp_cor 135 147 Aas#171_cor
+sp_cor 136 156 Grace Operator#ext162
+sp_cor 132 144 Worker#171_rvs_11
+sp_cor 129 140 Worker#171_rvs_14
+sp_cor 127 141 Aas#171_cor2
+aldebaran 131 97 Wuerzburg#20
+aldebaran 134 97 Nuernberg#20
+aldebaran 138 102 Cool Event Staff#alde
+aldebaran 149 97 Hohenschwangau#17
+aldebaran 145 102 Kafra Voting Staff#alde
+aldebaran 152 97 Neuschwanstein#23
+aldebaran 133 109 Riding Creature Master#
+aldebaran 145 105 Bulletin Board#18
+aldebaran 146 109 Maroll Battle Recruiter
+aldebaran 133 119 Eden Teleport Officer#5
+aldebaran 133 112 Mado Gear Armorer#alde
+aldebaran 133 114 Point Merchant#Aldebara
+aldebaran 143 119 Kafra Employee
+c_tower1 243 202 Demon in the Box#D240
+c_tower1 232 222 Belljamin Button#ct
+aldebaran 138 122 Zonda Teleportation#ald
+aldebaran 136 122 Kafra Teleportation#ald
+aldebaran 146 122 Guild Warehouse Manager
+aldebaran 146 124 Town Girl#alde
+aldebaran 135 128 Continental Messenger#0
+aldebaran 140 130 #jmAldebaran Clock Towe
+aldebaran 136 133 Signposts#Clock Tower
+aldebaran 136 135 Smile Assistance#alde
+aldebaran 127 138 Promotional Staff#alde
+aldebaran 143 136 Bell Keeper#A
+c_tower3_ 59 148 Belljamin Button#nct2
+aldebaran 165 107 Chef Assistant#alde
+aldebaran 170 104 Dolangmal#4
+aldebaran 159 113 Royal Messenger#e16_ald
+aldebaran 128 97 Rothenburg#19
+new_5-3 71 159 obs box
+new_5-3 113 64 obs box
+new_5-3 127 68 obs box
+new_5-3 102 44 obs box
+new_5-3 123 133 obs box
+moc_para01 29 26 obs box
+new_5-3 113 161 obs box
+new_5-3 97 58 obs box
+new_5-3 99 39 obs box
+new_5-3 68 34 obs box
+new_5-3 90 165 obs box
+new_5-3 120 131 obs box
+new_5-3 119 137 obs box
+new_5-3 82 56 obs box
+izlude_c 128 148 Kafra Employee#iz_c
+izlude_c 131 148 Eden Teleport Officer#3
+new_2-1 53 114 Training Instructor#2a
+new_1-1 53 114 Training Instructor#1a
+moc_para01 173 101 Enchant Effects Check
+moc_para01 184 101 Yorjas
+moc_para01 33 185 Hecar
+moc_para01 21 166 Timmy Boxter
+moc_para01 48 184 Gum & Manual Exchanger
+moc_para01 49 181 Training Instructor#sol
+moc_para01 169 112 Rajapong
+moc_para01 170 120 Goods Cabinet#02
+moc_para01 173 120 Goods Cabinet#01
+moc_para01 170 100 Special Enchanter
+new_3-1 53 114 Training Instructor#3a
+new_4-1 53 114 Training Instructor#4a
+new_5-1 53 114 Training Instructor#5a
+izlude_c 128 158 Vendor from Milk Ranch#
+izlude_c 136 160 Fish Tails#c
+gef_fild10 69 340 Signposts#Orc Dungeon
+gef_fild10 73 340 Kafra Employee
+prontera 90 115 Illusion Enchanter#0
+prontera 73 140 Milk Vendor
+prontera 29 207 Kafra Employee
+c_tower1 246 197 Giant Spring#D240
+aldebaran 141 126 obs box
+sp_cor 130 143 Worker#171_rvs_13
+gon_dun01 190 160 trace1-2#gnbs
+gonryun 149 189 Yotang#Flower_Of_Fairy
+gonryun 155 198 Signpost#Kunlun Dungeon
+gon_dun01 133 183 trace1-4#gnbs
+gonryun 163 60 Kunlun Guide#01gonryun
+gonryun 153 64 Kunlun Envoy#gon4
+gonryun 169 71 Guidev#gon
+gonryun 146 82 Gemstone Bagger#10
+gonryun 147 84 Tool Dealer#Extended_Go
+gonryun 147 101 Chef Assistant#gon
+gonryun 159 122 Kafra Employee
+gonryun 162 122 Eden Teleport Officer#2
+gonryun 164 127 Guild Warehouse Manager
+gonryun 166 196 Soldier#gon
+gonryun 147 88 Cat Paw Shrimp Merchant
+gon_dun02 23 105 trace2-5#gnbs
+gonryun 180 118 Iron man#gnp
+gon_dun01 139 257 trace1-5#gnbs
+gon_dun01 163 53 trace1-3#gnbs
+izlude_b 131 148 Eden Teleport Officer#3
+izlude_b 128 148 Kafra Employee#iz_b
+izlude_b 128 158 Vendor from Milk Ranch#
+izlude_b 117 165 Cat Paw Shrimp Merchant
+izlude_b 124 165 Fruit Gardener#iz_b
+izlude_b 115 181 Shop Helper#iz_b
+izlude_b 102 171 Promotional Staff#iz_b
+izlude_b 125 175 Smile Assistance#iz_b
+izlude_b 127 175 Hypnotist#novice_b
+izlude_b 129 175 Guide#01izlude_b
+izlude_b 140 186 Kylick#izlude_b
+izlude_b 143 205 Talkative Kid#izb
+izlude_b 122 207 Criatura Academy Staff#
+izlude_b 120 207 Information Staff#b
+izlude_b 140 249 Academy Student#b
+iz_ac01_b 100 39 Academy Receptionist#1_
+iz_ac01_b 93 44 [Dispensary]#ac_b
+iz_ac01_b 106 44 [Cafeteria]#ac_b
+iz_ac01_b 95 46 Kafra Guide Trainer#ac_
+iz_ac01_b 133 34 Broke Trainee#ac_b
+iz_ac01_b 134 47 Trainer Mainz#ac_b
+iz_ac01_b 147 50 Dacquoise#ac_b
+iz_ac01_b 149 46 Eclaire#ac_b
+iz_ac01_b 150 50 Mille Feuille#ac_b
+iz_ac01_b 159 32 Hungry Trainee#ac_b
+iz_ac01_b 160 50 Chef#ac_b
+iz_ac01_b 93 76 [Armory]#ac_b
+iz_ac01_b 59 83 Battle Instructor#08b
+iz_ac01_b 53 74 Attribute Expert#ac_b
+iz_ac01_b 45 80 Adept Adventurer#ac_b
+iz_ac01_b 43 80 Adventurer's Pet#ac_b
+new_1-3 99 169 Friendly Poring#ac
+new_1-3 105 163 Foolish Poring#pet_3
+new_1-3 105 164 Unskilled Poring#pet_2
+new_1-3 105 165 Cowardly Poring#pet_1
+new_1-3 92 169 Adept Adventurer#new_1-
+new_1-3 108 165 Ghostring#cupet
+iz_ac01 53 74 Attribute Expert#ac
+iz_ac01 59 83 Battle Instructor#08
+iz_ac01 93 76 [Armory]#ac
+iz_ac01 95 46 Kafra Guide Trainer#ac
+iz_ac01 93 44 [Dispensary]#ac
+iz_ac01 100 39 Academy Receptionist#1
+iz_ac01 106 44 [Cafeteria]#ac
+izlude 140 249 Academy Student#0
+moc_para01 10 185 Kafra Employee
+moc_para01 129 160 Normalson#ed
+iz_int 18 30 iz_int#intro_start
+iz_int 56 32 Wounded Swordsman#intro
+iz_int 51 30 iz_int#intro_evt02
+int_land 78 103 Captain Carocc#intro_np
+int_land 73 100 Lumin#new_ship
+int_land 58 69 Sailor#intro_npc04
+izlude 197 205 Sailor#izlude
+izlude 198 213 Captain Carocc#iz
+izlude 195 213 Con-Chliina Crewman#doi
+izlude 194 209 #fgtg02
+izlude 182 218 Odgnalam#iz
+izlude 179 219 Edgar#izlude
+izlude 173 210 #fgtg03
+izlude 172 215 Charfri#izlude
+izlude 161 199 #fgtg01
+izlude 146 205 Talkative Adventurer#iz
+izlude 143 205 Talkative Kid#iz
+izlude 122 207 Criatura Academy Staff#
+izlude 120 207 Information Staff#0
+izlude 138 183 Vigilante Penne#doect01
+izlude 115 181 Shop Helper#iz
+izlude 125 175 Smile Assistance#iz
+izlude 127 175 Hypnotist#novice
+izlude 129 175 Guide#01izlude
+izlude_in 58 90 Strange Machine
+izlude_in 57 92 Dorian
+izlude_in 57 110 Tool Dealer#iz
+izlude_in 72 98 Pet Groomer#iz
+izlude_in 73 99 Mado Gear Merchant#over
+izlude_in 73 101 Ninja Tool Merchant#ove
+izlude_in 73 103 Arrow Merchant#over_arr
+izlude 117 165 Cat Paw Shrimp Merchant
+izlude 124 165 Fruit Gardener#iz
+izlude 102 171 Promotional Staff#iz
+izlude_in 55 105 Monster Tamer#izu
+izlude 108 139 Enchanter Almond J#iz
+pay_arche 55 123 Kafra Employee
+pay_arche 76 135 #Target
+pay_arche 77 131 Archer Joe#payon
+pay_arche 48 137 Young Scholar#ill_moon_
+pay_arche 39 134 Signposts#Payon Cave
+pay_arche 46 135 Muyeon#ill_moon_arch
+c_tower1 237 196 obs Box3
+moc_para01 45 24 obs box
+moc_para01 31 24 obs box
+moc_para01 42 27 obs box
+moc_para01 178 167 Luke Lapez#atnd03
+moc_para01 174 165 Lime Evenor#atnd02
+moc_para01 183 179 Bullshot
+new_2-3 96 30 Training Instructor#2f
+new_5-1 126 91 obs rocity
+new_5-1 106 42 obs rocity
+new_5-1 119 73 obs rocity
+new_5-3 84 150 obs rocity
+new_5-3 83 20 obs rocity
+new_5-3 71 60 obs rocity
+new_5-3 65 166 obs rocity
+new_5-3 95 45 obs rocity
+new_5-3 76 51 obs rocity
+new_5-3 100 42 obs rocity
+new_5-3 67 79 obs rocity
+new_5-3 108 52 obs rocity
+new_5-3 81 25 obs rocity
+new_5-3 94 60 obs rocity
+new_5-3 123 45 obs rocity
+gonryun 173 84 Armor Dealer#gon
+new_3-3 96 30 Training Instructor#3f
+gon_dun01 201 25 trace1-1#gnbs
