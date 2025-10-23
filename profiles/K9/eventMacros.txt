@@ -1,0 +1,29 @@
+automacro AutoLootOnConnect {
+    run-once 1
+    priority 1
+    BaseLevel > 0
+    timeout 3
+    call {
+        do c \@autoloot 0.5
+        log Autoloot activated
+    }
+}
+
+automacro moveEden {
+    InMap sp_cor
+    call {
+    	do move 112 177
+        do talknpc 111 177 c c r0
+
+    }
+}
+automacro move140150 {
+    InMap moc_para01
+    CurrentHP > 50%
+    call {
+    	do move 53 29
+        do talknpc 53 30 c r8
+
+    }
+}
+

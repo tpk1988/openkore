@@ -1,0 +1,31 @@
+automacro AutoLootOnConnect {
+    OnCharLogIn 1
+    timeout 3
+    call {
+        do c \@autoloot 0.5
+        log Autoloot activated
+    }
+}
+
+automacro IzludeNPCChat1 {
+    InMap izlude
+    StorageOpened 0
+    CharCurrentWeight < 40%
+    exclusive 1
+
+    call {
+        pause 1
+        do move 131 54
+        pause 1
+        do talknpc 132 54 c c r0
+        log Talked to NPC at Izlude 132 54
+    }
+}
+automacro moveclock  {
+    InMap aldebaran
+    call {
+    	do move c_tower1 232 221
+        do talknpc 232 222 c c r2 r1
+
+    }
+}
