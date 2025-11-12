@@ -1,25 +1,11 @@
 # Please Read the Users Manual
 # The Manual is located at https://openkore.com/wiki/Manual
 
-attackSkillSlot Psychic Wave {
-	lvl 5
-	dist
-	whenStatusInActive Psychic Wave Delay
-	timeout 4
-	sp > 10%
-
-}
-attackSkillSlot 2447 {
-	lvl 5
-	timeout 3
-}
-
-
 ######## Login options and server-specific options ########
 
 master AutoKore
 server 0
-username tpk4
+username tpk11
 password Khongnho@88
 loginPinCode
 char 0
@@ -53,7 +39,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword keezosta
+adminPassword kiedaima
 callSign
 commandPrefix ;
 callSignGM 0
@@ -66,63 +52,38 @@ pauseCharServer 0
 pauseMapServer 0
 ignoreInvalidLogin 0
 
-###### Attack
-partySkill Striking {
-	target_whenStatusInactive Striking
-	sp >70%
-}
-useSelf_skill Foresight {
-	whenStatusInactive EFST_MEMORIZE
-	monstersCount 0
-	timeout 10
-	sp >70%
-}
-useSelf_skill Double Cast {
-	whenStatusInactive Double Cast
-	timeout 10
-	sp >70%
-}
-useSelf_skill Indulge {
-
-	sp < 60%
-}
-
-
-
-
-useSelf_item 569,11614,11615,502,11570,11569,547 {
-	hp <80%
-}
-
 # Opening cash shop when connected to map server (recv/ST0)
 whenInGame_requestCashPoints 0
 
 message_length_max 80
 
 ######## Main configuration ########
+attackSkillSlot 13 {
+	lvl 10
 
+}
 alias_heal sp 28
 
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 0
-attackAuto_party 0
+attackAuto 2
+attackAuto_party 1
 attackAuto_onlyWhenSafe 0
-attackAuto_followTarget 0
-attackAuto_inLockOnly 0
-attackAuto_notInTown 0
-attackAuto_notWhile_storageAuto
-attackAuto_notWhile_buyAuto
-attackAuto_notWhile_sellAuto
+attackAuto_followTarget 1
+attackAuto_inLockOnly 1
+attackAuto_notInTown 1
+attackAuto_notWhile_storageAuto 1
+attackAuto_notWhile_buyAuto 1
+attackAuto_notWhile_sellAuto 1
 attackAuto_considerDamagedAggressive 0
-attackDistance 4
-attackDistanceAuto 0
+attackDistance 1
+attackDistanceAuto 1
 attackMaxDistance 1
 attackMaxRouteTime 4
 attackMinPlayerDistance 2
 attackMinPortalDistance 4
-attackUseWeapon 0
+attackUseWeapon 1
 attackNoGiveup 0
 attackCanSnipe 0
 attackCheckLOS 1
@@ -226,13 +187,13 @@ dcOnServerClose 0
 dcOnJobLevel
 dcOnLevel
 
-follow 1
-followTarget HealMe
+follow 0
+followTarget
 followEmotion 1
 followEmotion_distance 4
 followFaceDirection 0
-followDistanceMax 10
-followDistanceMin 4
+followDistanceMax 6
+followDistanceMin 3
 followLostStep 12
 followSitAuto 0
 followBot 0
@@ -250,7 +211,7 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap
+lockMap prt_fild05
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -306,13 +267,13 @@ shop_useSkill 1
 buyerShopAuto_open 0
 buyerShop_random 0
 
-sitAuto_hp_lower
-sitAuto_hp_upper
+sitAuto_hp_lower 40
+sitAuto_hp_upper 100
 sitAuto_sp_lower 0
 sitAuto_sp_upper 0
 sitAuto_follow 0
 sitAuto_over_50 0
-sitAuto_idle 0
+sitAuto_idle 1
 sitAuto_look
 sitAuto_look_from_wall
 sitTensionRelax 0
@@ -328,41 +289,41 @@ skillsAddAuto_list
 tankMode 0
 tankModeTarget
 
-teleportAuto_hp 50
-teleportAuto_sp 1
+teleportAuto_hp 10
+teleportAuto_sp 0
 teleportAuto_idle 0
 teleportAuto_portal 0
 teleportAuto_search 0
-teleportAuto_minAggressives 4
+teleportAuto_minAggressives 0
 teleportAuto_minAggressivesInLock 0
 teleportAuto_onlyWhenSafe 0
-teleportAuto_maxDmg
+teleportAuto_maxDmg 500
 teleportAuto_maxDmgInLock 0
 teleportAuto_deadly 1
-teleportAuto_useSkill 0
+teleportAuto_useSkill 1
 teleportAuto_useChatCommand
 teleportAuto_allPlayers 0
 teleportAuto_notPlayers
 teleportAuto_atkCount 0
 teleportAuto_atkMiss 10
-teleportAuto_unstuck 1
+teleportAuto_unstuck 0
 teleportAuto_lostTarget 0
 teleportAuto_dropTarget 0
 teleportAuto_dropTargetKS 0
 teleportAuto_dropTargetHidden 0
 teleportAuto_attackedWhenSitting 0
-teleportAuto_totalDmg 2000
+teleportAuto_totalDmg 0
 teleportAuto_totalDmgInLock 0
 teleportAuto_equip_leftAccessory
 teleportAuto_equip_rightAccessory
 teleportAuto_lostHomunculus
 teleportAuto_useItemForRespawn
-teleportAuto_item1 12887
+teleportAuto_item1
 teleportAuto_item2
 
 dealAuto 1
 dealAuto_names
-partyAuto 2
+partyAuto 1
 partyAutoShare 0
 partyAutoShareItem 0
 partyAutoShareItemDiv 0

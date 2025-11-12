@@ -40,7 +40,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword lothujap
+adminPassword karodust
 callSign
 commandPrefix ;
 callSignGM 0
@@ -58,7 +58,7 @@ whenInGame_requestCashPoints 0
 
 message_length_max 80
 ######## Tpk configuration ########
-getAuto 12183 {
+getAuto 12007 {
 	minAmount 1
 	maxAmount 50
 	batchSize
@@ -72,7 +72,14 @@ getAuto 602 {
 	passive
 	disabled 0
 }
+useSelf_item 12183 {
+	inInventory Holy Arrow <= 500
 
+}
+useSelf_item 12007 {
+	inInventory Oridecon Arrow                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <= 500
+
+}
 useSelf_item 12183 {
 	inInventory Holy Arrow <= 500
 
@@ -240,7 +247,10 @@ autoConfChange {
 	lvl
 	joblvl
 }
-
+doCommand c sp me {
+	sp < 20%
+	timeout 10
+}
 autoMakeArrows 0
 
 autoRestart 0
@@ -320,7 +330,7 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap c_tower3_
+lockMap ra_fild10
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -398,7 +408,7 @@ skillsAddAuto_list
 tankMode 0
 tankModeTarget
 
-teleportAuto_hp 10
+teleportAuto_hp 50
 teleportAuto_sp 0
 teleportAuto_idle 0
 teleportAuto_portal 0
@@ -406,12 +416,12 @@ teleportAuto_search 0
 teleportAuto_minAggressives 0
 teleportAuto_minAggressivesInLock 0
 teleportAuto_onlyWhenSafe 0
-teleportAuto_maxDmg 1000
+teleportAuto_maxDmg
 teleportAuto_maxDmgInLock 0
 teleportAuto_deadly 1
 teleportAuto_useSkill 1
 teleportAuto_useChatCommand
-teleportAuto_allPlayers 2
+teleportAuto_allPlayers
 teleportAuto_notPlayers
 teleportAuto_atkCount 0
 teleportAuto_atkMiss 10
@@ -421,7 +431,7 @@ teleportAuto_dropTarget 0
 teleportAuto_dropTargetKS 0
 teleportAuto_dropTargetHidden 0
 teleportAuto_attackedWhenSitting 0
-teleportAuto_totalDmg 2000
+teleportAuto_totalDmg
 teleportAuto_totalDmgInLock 0
 teleportAuto_equip_leftAccessory
 teleportAuto_equip_rightAccessory
@@ -1090,7 +1100,7 @@ sellAuto_npc_steps s
 
 storageAuto 1
 storageAuto_onStart 0
-storageAuto_npc aldebaran 143 119
+storageAuto_npc rachel 109 138
 storageAuto_standpoint
 storageAuto_distance 3
 storageAuto_maxDistance

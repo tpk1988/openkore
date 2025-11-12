@@ -1,6 +1,45 @@
 # Please Read the Users Manual
 # The Manual is located at https://openkore.com/wiki/Manual
 
+partySkill Sacrament {
+	lvl 5
+	sp > 20%
+	target_whenStatusInactive Sacrament
+	timeout 60
+}
+partySkill Suffragium {
+	lvl 3
+	sp > 25
+	stopWhenHit 1
+	timeout 8
+	target
+	whenStatusInactive
+	partyAggressives
+	isSelfSkill
+	disable
+}
+partySkill Renovatio {
+	lvl 4
+	sp > 20%
+	stopWhenHit 1
+	target_whenStatusInactive Renovatio
+}
+partySkill Gloria {
+	lvl 5
+	sp
+	target
+	timeout
+	stopWhenHit 1
+	target_whenStatusInactive Gloria
+	notInTown 1
+}
+useSelf_skill Magnificat {
+	lvl 10
+	whenStatusInactive Magnificat
+	stopWhenHit 1
+	sp
+	timeout 30
+}
 ######## Login options and server-specific options ########
 
 master AutoKore
@@ -28,7 +67,7 @@ XKore_dll NetRedirect.dll
 XKore_injectDLL 1
 XKore_autoAttachIfOneExe 1
 XKore_silent 1
-XKore_bypassBotDetection 0
+XKore_bypassBotDetection
 XKore_exeName ragexe.exe
 
 # XKore 2 / Proxy configuration
@@ -39,7 +78,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword potwouce
+adminPassword kezipeaj
 callSign
 commandPrefix ;
 callSignGM 0
@@ -57,22 +96,21 @@ whenInGame_requestCashPoints 0
 
 message_length_max 80
 ##### TPK  Config    #########
+
+partySkill EXPIATIO / Expiation {
+	lvl 5
+	target_whenStatusInactive Expiatio
+	sp > 10 %
+	timeout 70
+}
 partySkill Heal {
 	lvl 10
 	target_hp < 90%
+	target_whenStatusInactive Critical Wound
 	sp > 10 %
 }
 
-partySkill Blessing {
-	lvl 10
-	sp > 64
-	notInTown 1
-	timeout 3
-	target_whenStatusInactive Blessing
-	target_timeout 240
-}
-
-partySkill Increase agility {
+partySkill Cantocandidus {
 	lvl 10
 	sp > 45
 	notInTown 0
@@ -86,17 +124,26 @@ partySkill Angelus {
 	sp > 45
 	notInTown 1
 	timeout 3
-	target
 	target_whenStatusInactive Angelus
 	target_timeout 240
-	isSelfSkill 1
 }
 
 partySkill Cure {
 	lvl 1
-	target_whenStatusActive Cursed, Blinded, Chaos, Silenced
 	sp > 10%
+	notInTown
 	timeout 5
+	target
+	target_whenStatusInactive
+	target_timeout
+	isSelfSkill
+}
+
+partySkill 2045 {
+	lvl 10
+	target_whenStatusActive
+	sp > 20%
+	timeout
 }
 
 useSelf_skill Heal {
@@ -106,7 +153,7 @@ useSelf_skill Heal {
 	hp < 90%
 	sp > 10%
 }
-useSelf_skill Increase agility {
+useSelf_skill Cantocandidus {
 	lvl 10
 	whenStatusInactive Increase AGI
 	stopWhenHit 1
@@ -114,96 +161,72 @@ useSelf_skill Increase agility {
 	timeout
 }
 useSelf_skill Sacrament {
-	lvl 10
+	lvl 5
 	sp > 20%
 	inLockOnly
 	stopWhenHit 1
-	timeout 150
-	whenStatusInactive UNKNOWN_STATUS_824
+	timeout 10
+	whenStatusInactive Sacrament
 	notInTown 1
 }
-partySkill 2045 {
+
+partySkill {
 	lvl 10
-	sp > 20%
+	sp > 45
 	inLockOnly
 	stopWhenHit 1
+	timeout 1
 	target_whenStatusInactive Kyrie Eleison
 }
-partySkill Sacrament {
-	lvl 10
-	sp > 20%
-	inLockOnly
-	stopWhenHit 1
-	timeout 150
-	target_whenStatusInactive UNKNOWN_STATUS_824
-}
-useSelf_skill Blessing {
+useSelf_skill Clementia {
 	lvl 10
 	whenStatusInactive Blessing
 	stopWhenHit 1
 	sp > 10%
 	timeout 5
 }
-partySkill Kyrie Eleison {
-	lvl 10
-	sp > 45
-	stopWhenHit 1
-	notWhileSitting 1
-	notInTown 1
-	timeout 1
-	disabled 1
-	target_whenStatusInactive Kyrie Eleison
-	target_timeout 240
-}
-
 partySkill Magnificat {
 	lvl 10
 	sp
 	stopWhenHit 1
+	notWhileSitting
+	notInTown
 	timeout 10
-	target
-	whenStatusInactive Magnificat
-	partyAggressives < 3
-	isSelfSkill 1
-	disable 0
+	disabled 1
+	target_whenStatusInactive
+	target_timeout
 }
-partySkill Suffragium {
-	lvl 3
-	sp > 25
-	target
-	timeout 8
-	stopWhenHit 1
-	target_whenStatusInactive Suffragium
-	notInTown 1
-}
-partySkill Gloria {
-	lvl 5
-	target_whenStatusInactive Gloria
-	stopWhenHit 1
-	notInTown 1
-}
+
 
 
 partySkill Resurrection {
 	lvl 4
-	target_dead 1
-	aggressives 0
+	target_whenStatusInactive
+	stopWhenHit
 	notInTown 1
 }
 
 
 partySkill Impositio Manus {
 	lvl 10
-	sp > 25
-	notInTown 1
-	timeout 3
-	disabled 0
-	partyAggressives < 3
-	target_whenStatusInactive Impositio Manus
-	target_timeout 60
+	target_dead
 	aggressives 0
 	notInTown 1
-	stopWhenHit 1
+}
+
+
+partySkill {
+	lvl
+	sp
+	notInTown 0
+	timeout 0
+	disabled 0
+	partyAggressives
+	target_whenStatusInactive
+	target_timeout 0
+	aggressives
+	notInTown 0
+	stopWhenHit 0
 }
 useSelf_skill Cure {
 	lvl 1
@@ -347,8 +370,8 @@ followTarget HealMe
 followEmotion 1
 followEmotion_distance 4
 followFaceDirection 0
-followDistanceMax 6
-followDistanceMin 3
+followDistanceMax 4
+followDistanceMin 0
 followLostStep 12
 followSitAuto 0
 followBot 0
@@ -444,7 +467,7 @@ skillsAddAuto_list
 tankMode 0
 tankModeTarget
 
-teleportAuto_hp 10
+teleportAuto_hp 50
 teleportAuto_sp 0
 teleportAuto_idle 0
 teleportAuto_portal 0
@@ -452,12 +475,12 @@ teleportAuto_search 0
 teleportAuto_minAggressives 0
 teleportAuto_minAggressivesInLock 0
 teleportAuto_onlyWhenSafe 0
-teleportAuto_maxDmg 500
+teleportAuto_maxDmg
 teleportAuto_maxDmgInLock 0
 teleportAuto_deadly 1
 teleportAuto_useSkill 1
 teleportAuto_useChatCommand
-teleportAuto_allPlayers 2
+teleportAuto_allPlayers
 teleportAuto_notPlayers
 teleportAuto_atkCount 0
 teleportAuto_atkMiss 10
@@ -711,13 +734,13 @@ pet_return 20
 # configure two attack skills, just duplicate the attackSkillSlot block.
 
 attackSkillSlot {
-	lvl
-	dist 1
-	maxDist 1
-	maxCastTime 0
-	minCastTime 0
+	lvl 10
+	dist
+	maxDist
+	maxCastTime
+	minCastTime
 	hp
-	sp > 10
+	sp
 	ap
 	homunculus
 	homunculus_hp
@@ -749,17 +772,17 @@ attackSkillSlot {
 	amuletType
 	aggressives
 	previousDamage
-	stopWhenHit 0
-	inLockOnly 0
-	notInTown 0
-	timeout 0
-	disabled 0
+	stopWhenHit
+	inLockOnly
+	notInTown 1
+	timeout 3
+	disabled
 	monsters
 	notMonsters
 	monstersCount
 	monstersCountDist
-	maxAttempts 0
-	maxUses 0
+	maxAttempts
+	maxUses
 	target_hp
 	target_whenStatusActive
 	target_whenStatusInactive
@@ -767,8 +790,8 @@ attackSkillSlot {
 	whenPartyMembersNear
 	whenPartyMembersNearDist
 	inInventory
-	isSelfSkill 0
-	isStartSkill 0
+	isSelfSkill
+	isStartSkill
 	equip_topHead
 	equip_midHead
 	equip_lowHead
@@ -780,7 +803,7 @@ attackSkillSlot {
 	equip_armor
 	equip_shoes
 	equip_arrow
-	manualAI 0
+	manualAI
 }
 
 attackComboSlot {
@@ -908,10 +931,10 @@ partySkillDistance 0..8
 
 partySkill {
 	lvl
-	dist 1
-	maxDist 8
-	maxCastTime 0
-	minCastTime 0
+	dist
+	maxDist
+	maxCastTime
+	minCastTime
 	hp
 	sp
 	ap
@@ -948,13 +971,13 @@ partySkill {
 	notMonsters
 	monstersCount
 	monstersCountDist
-	stopWhenHit 0
-	inLockOnly 0
-	notWhileSitting 0
-	notInTown 0
-	timeout 0
-	disabled 0
-	manualAI 0
+	stopWhenHit
+	inLockOnly
+	notWhileSitting
+	notInTown
+	timeout
+	disabled
+	manualAI
 	target
 	target_hp
 	target_isJob
@@ -963,13 +986,13 @@ partySkill {
 	target_whenStatusInactive
 	target_aggressives
 	target_monsters
-	target_timeout 0
+	target_timeout
 	target_deltaHp
-	target_dead 0
+	target_dead
 	whenPartyMembersNear
 	whenPartyMembersNearDist
 	inInventory
-	isSelfSkill 0
+	isSelfSkill
 }
 
 monsterSkill {

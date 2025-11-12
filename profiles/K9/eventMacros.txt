@@ -4,7 +4,7 @@ automacro AutoLootOnConnect {
     BaseLevel > 0
     timeout 3
     call {
-        do c \@autoloot 0.5
+        do c \@autoloot 100
         log Autoloot activated
     }
 }

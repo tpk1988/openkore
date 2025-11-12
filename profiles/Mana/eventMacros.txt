@@ -7,25 +7,26 @@ automacro AutoLootOnConnect {
     }
 }
 
-automacro IzludeNPCChat1 {
-    InMap izlude
-    StorageOpened 0
-    CharCurrentWeight < 40%
-    exclusive 1
-
+automacro sp_exchange {
+	PubMsgDist /sp me/ < 9
+	call {
+		do sp 374 $.PubMsgDistLastID
+	}
+}
+automacro Wait {
+	CurrentHP < 50%
+	delay 100
+	run-once 1
     call {
-        pause 1
-        do move 131 54
-        pause 1
-        do talknpc 132 54 c c r0
-        log Talked to NPC at Izlude 132 54
+		do conf route_randomWalk 0
+        log Followed due to min HP
     }
 }
-automacro moveclock  {
-    InMap aldebaran
+automacro Wait1 {
+	CurrentHP > 70%
+	run-once 1
     call {
-    	do move c_tower1 232 221
-        do talknpc 232 222 c c r2 r1
-
+        do conf route_randomWalk 1
+        log follow ok
     }
 }

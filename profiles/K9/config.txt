@@ -1,6 +1,10 @@
 # Please Read the Users Manual
 # The Manual is located at https://openkore.com/wiki/Manual
 
+doCommand c sp me {
+	sp < 20%
+	timeout 10
+}
 ######## Login options and server-specific options ########
 
 master AutoKore
@@ -39,7 +43,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword twabravo
+adminPassword kestoulo
 callSign
 commandPrefix ;
 callSignGM 0
@@ -65,7 +69,7 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 2
+attackAuto 0
 attackAuto_party 1
 attackAuto_onlyWhenSafe 0
 attackAuto_followTarget 1
@@ -185,15 +189,15 @@ dcOnServerClose 0
 dcOnJobLevel
 dcOnLevel
 
-follow 0
-followTarget
+follow 1
+followTarget HealMe
 followEmotion 1
 followEmotion_distance 4
 followFaceDirection 0
 followDistanceMax 6
 followDistanceMin 3
 followLostStep 12
-followSitAuto 0
+followSitAuto 1
 followBot 0
 
 itemsTakeAuto 0
@@ -219,7 +223,7 @@ route_escape_reachedNoPortal 1
 route_escape_randomWalk 1
 route_escape_shout
 route_avoidWalls 1
-route_randomWalk 0
+route_randomWalk 1
 route_randomWalk_inTown 0
 route_randomWalk_maxRouteTime 75
 route_maxWarpFee
@@ -265,8 +269,8 @@ shop_useSkill 1
 buyerShopAuto_open 0
 buyerShop_random 0
 
-sitAuto_hp_lower 10
-sitAuto_hp_upper 20
+sitAuto_hp_lower 50
+sitAuto_hp_upper 70
 sitAuto_sp_lower 0
 sitAuto_sp_upper 0
 sitAuto_follow 0
@@ -287,15 +291,15 @@ skillsAddAuto_list
 tankMode 0
 tankModeTarget
 
-teleportAuto_hp 10
+teleportAuto_hp 50
 teleportAuto_sp
 teleportAuto_idle 1
 teleportAuto_portal 0
 teleportAuto_search
-teleportAuto_minAggressives 2
-teleportAuto_minAggressivesInLock 2
+teleportAuto_minAggressives
+teleportAuto_minAggressivesInLock
 teleportAuto_onlyWhenSafe 0
-teleportAuto_maxDmg 500
+teleportAuto_maxDmg
 teleportAuto_maxDmgInLock 0
 teleportAuto_deadly 1
 teleportAuto_useSkill
@@ -321,7 +325,7 @@ teleportAuto_item2
 
 dealAuto 1
 dealAuto_names
-partyAuto 1
+partyAuto 2
 partyAutoShare 0
 partyAutoShareItem 0
 partyAutoShareItemDiv 0
@@ -1010,7 +1014,7 @@ getAuto {
 ######## K9 ########
 attackSkillSlot Dragon's Breath {
 	lvl 10
-	sp > 25%
+	sp > 5%
 	onAction attack
 	maxDist 6
 }

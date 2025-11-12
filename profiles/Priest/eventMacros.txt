@@ -21,11 +21,4 @@ automacro IzludeNPCChat1 {
         log Talked to NPC at Izlude 132 54
     }
 }
-automacro moveclock  {
-    InMap aldebaran
-    call {
-    	do move c_tower1 232 221
-        do talknpc 232 222 c c r2 r1
 
-    }
-}
