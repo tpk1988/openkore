@@ -512,3 +512,268 @@ new_5-3 65 23 obs box
 new_5-3 108 132 obs box
 moc_para01 39 27 obs box
 moc_para01 185 107 Nyarom
+moc_para01 31 25 obs box
+new_5-3 60 137 obs rocity
+new_5-3 67 148 obs rocity
+new_5-3 120 136 obs rocity
+new_5-3 120 22 obs rocity
+new_5-3 71 38 obs rocity
+new_5-3 122 72 obs rocity
+new_5-3 78 24 obs rocity
+new_5-3 129 53 obs rocity
+new_5-3 81 74 obs rocity
+new_5-3 74 169 obs rocity
+new_5-3 105 82 obs rocity
+new_5-3 90 50 obs rocity
+new_4-3 63 146 obs rocity
+new_4-3 84 169 obs rocity
+new_4-3 106 93 obs rocity
+new_4-3 90 155 obs rocity
+rachel 115 125 Reminder#ra01
+rachel 121 126 Dolangmal#7
+rachel 105 134 Villager#ep18_Rachel2
+rachel 115 125 Reminder#ra01
+rachel 106 134 Mado Gear Armorer#ra
+rachel 121 126 Dolangmal#7
+rachel 105 134 Villager#ep18_Rachel2
+rachel 106 130 Riding Creature Master#
+rachel 106 134 Mado Gear Armorer#ra
+rachel 119 131 Royal Messenger#e16_ra
+rachel 106 130 Riding Creature Master#
+rachel 124 130 Banadis
+rachel 119 131 Royal Messenger#e16_ra
+rachel 124 132 Citizen#1
+rachel 124 130 Banadis
+rachel 103 141 Salesman#ep18
+rachel 124 132 Citizen#1
+rachel 106 142 Rare Diamond Merchant#6
+rachel 109 138 Cool Event Corp. Staff
+rachel 103 141 Salesman#ep18
+rachel 106 142 Rare Diamond Merchant#6
+rachel 112 136 Niren Great Hall
+rachel 109 138 Cool Event Corp. Staff
+rachel 118 139 Zonda Teleportation#rac
+rachel 112 136 Niren Great Hall
+rachel 87 122 Merchant#ep18_Rachel1
+rachel 87 122 Merchant#ep18_Rachel1
+rachel 72 133 Half Flower#E18_6
+rachel 70 135 Mejai#E18_7
+rachel 72 133 Half Flower#E18_6
+rachel 42 133 Box#ep18_procurement1
+rachel 42 133 Box#ep18_procurement1
+rachel 41 132 Box#ep18_procurement4
+rachel 41 132 Box#ep18_procurement4
+ra_fild11 355 226 #ep18w02__
+ra_fild11 355 226 #ep18w02__
+ra_fild11 350 236 Horim#ep1810
+ra_fild11 350 236 Horim#ep1810
+ra_fild11 354 235 Merchant#ep18_rachel
+ra_fild11 354 235 Merchant#ep18_rachel
+rachel 31 130 Rachel Guard#3aru
+rachel 39 132 Box#ep18_procurement3
+rachel 69 117 Villager#ep18_Rachel3
+rachel 66 135 #Flower Room Main
+rachel 40 133 Box#ep18_procurement2
+rachel 66 135 #Flower Room Main
+rachel 69 117 Villager#ep18_Rachel3
+rachel 116 139 Kafra Teleportation#rac
+rachel 116 139 Kafra Teleportation#rac
+rachel 118 139 Zonda Teleportation#rac
+rachel 121 120 Magi#ep18_rachel
+rachel 121 120 Magi#ep18_rachel
+rachel 122 120 Mark#ep18_Rachel
+rachel 123 145 Guild Warehouse Manager
+rachel 122 120 Mark#ep18_Rachel
+rachel 124 120 Mardol
+rachel 124 120 Mardol
+rachel 125 144 Eden Teleport Officer#1
+rachel 125 144 Eden Teleport Officer#1
+rachel 127 117 Child Follower#2
+rachel 127 117 Child Follower#2
+rachel 128 144 Cash Sales Guide#rachel
+rachel 128 144 Cash Sales Guide#rachel
+rachel 70 135 Mejai#E18_7
+ra_fild10 379 282 #Horim03
+ra_fild10 375 293 Horim#ep1811
+ra_fild10 379 282 #Horim03
+ra_fild10 375 293 Horim#ep1811
+rachel 40 133 Box#ep18_procurement2
+ra_fild11 121 271 obs kru
+ra_fild11 104 271 obs kru
+ra_fild11 104 271 obs kru
+ecl_fild01 173 95 Diary Frog No. 30#worm
+ecl_fild01 183 94 #pa0829EtranExterioTouc
+ecl_fild01 190 93 Fili#1
+ecl_fild01 192 94 Golie#ep14_2
+ecl_fild01 230 206 #pa0829Reactor5
+ecl_fild01 98 299 Balumin#eclage
+ecl_fild01 83 263 Watering Laphine#1
+ecl_fild01 187 243 #pa0829Reactor9
+dic_dun01 30 208 Signpost#Kamidal
+gefenia04 130 95 Signpost#Geffenia4
+aldebaran 157 103 obs boxx
+aldebaran 154 104 obs boxx
+aldebaran 153 104 obs boxx
+aldebaran 157 104 obs boxx
+aldebaran 156 104 obs boxx
+aldebaran 148 103 obs boxx
+aldebaran 150 103 obs boxx
+aldebaran 155 104 obs boxx
+ra_fild11 178 254 obs kru
+ra_fild11 321 192 obs rocity
+ra_fild11 321 192 obs rocity
+ra_fild11 321 192 obs rocity
+ra_fild11 285 207 obs rocity
+ra_fild11 285 207 obs rocity
+new_5-3 53 132 obs rocity
+aldebaran 139 63 Guide#01aldebaran
+aldebaran 152 63 Merchant#alde
+sp_cor 136 180 Worker#171_rvs_24
+sp_cor 138 180 Worker#171_rvs_25
+sp_os 252 359 Dien#171_spos
+sp_cor 159 68 Tes#171_rvs_2
+sp_cor 160 55 Operation Officer#171_o
+sp_cor 184 279 Worker#171_rvs_21
+sp_cor 169 282 Worker#171_rvs_20
+sp_cor 153 260 Scout#171_rvs_31
+sp_cor 183 163 Rebellion#rm171_6
+sp_cor 180 163 Rebellion#rm171_5
+sp_cor 70 263 Worker#171_rvs_16
+sp_cor 162 56 #171_ocp_ev
+sp_cor 163 56 Est#171_ocp
+sp_cor 154 223 Rebellion#rm171_12
+sp_cor 152 224 Rebellion#rm171_11
+sp_cor 260 276 Elena Volkova#rm171_3
+sp_cor 259 278 Elyumina#rm171_3
+sp_cor 134 144 Search Team#171_cor
+sp_cor 137 149 Sentinel#171_rvs_34
+sp_cor 224 77 Researcher#171_rvs_0
+sp_cor 163 62 Tommy#171_rvs_1
+sp_cor 160 135 Green Beans#rm171_2
+sp_cor 166 139 Scout#171_rvs_32
+sp_cor 163 75 Aas#171_rvs_2
+sp_cor 140 213 Elyumina#rm171_1
+sp_cor 141 211 Lazy#rm171_1
+sp_cor 158 173 Kunai Merchant#over_kun
+sp_cor 156 173 Bullet Merchant#over_bu
+sp_cor 69 192 Worker#171_rvs_45
+sp_cor 69 194 Worker#171_rvs_17
+sp_cor 117 268 Scout#171_rvs_29
+sp_cor 62 258 Worker#171_rvs_18
+sp_cor 209 280 Worker#171_rvs_22
+sp_cor 232 289 Rebellion#171_rvs_38
+sp_cor 151 180 Worker#171_rvs_15
+sp_cor 246 97 Farmhand#rm171_1
+sp_cor 240 87 Pumpkins#rm171_3
+sp_cor 218 134 Dog#171_rvs_45
+sp_cor 110 130 Elena Volkova#rm171_0
+sp_cor 111 130 Elyumina#rm171_4
+sp_cor 163 73 Worker#171_rvs_7
+sp_cor 138 265 Worker#171_rvs_19
+sp_cor 165 74 Magenta#171_rvs_1
+sp_cor 167 79 Advance Squad#171_rvs_2
+sp_cor 45 135 Worker#171_rvs_23
+sp_cor 162 60 #171_EV_COR_0
+sp_cor 119 266 Scout#171_rvs_30
+sp_cor 235 292 Rebellion#171_rvs_39
+sp_cor 249 85 Grapes#rm171_1
+sp_cor 117 132 Sentinel#171_rvs_36
+sp_cor 183 165 Rebellion#rm171_3
+sp_cor 118 148 Sentinel#171_rvs_37
+sp_cor 111 127 Rebellion#rm171_0
+sp_cor 152 158 Butterfly Merchant#sp_c
+sp_cor 155 94 Juslan#171_daily_merc
+sp_cor 162 72 Worker#171_rvs_8
+rachel 135 131 Gefn
+sp_cor 159 66 Worker#171_rvs_6
+sp_cor 163 87 Fool 1#171_rvs_1
+sp_cor 166 88 Fool 2#171_rvs_2
+sp_cor 160 84 #171_EV_COR_1
+sp_cor 170 189 Scout#171_rvs_33
+sp_cor 141 215 Elena Volkova#rm171_2
+sp_cor 137 146 Kaya Tos#171_cor
+sp_cor 162 83 Denny#171_rvs_2
+sp_cor 165 82 Goni#171_rvs_2
+sp_cor 136 210 Goni#rm171_1
+sp_cor 106 136 RS26#illusion_enchant
+aldebaran 152 104 obs rocity
+aldebaran 148 102 obs rocity
+aldebaran 142 113 obs rocity
+sp_cor 108 130 Rebellion#rm171_7
+sp_cor 168 75 Goni#171_rvs_1
+ba_pw02 93 93 Dew#ep172_bapw2-01
+ba_pw02 48 262 Lazy#jh_ba1
+ba_pw02 45 267 Elyumina#jh_ba1
+sp_cor 173 189 Worker#171_rvs_27
+sp_cor 138 220 Philopontes#rm171_1
+sp_cor 165 86 Elyumina#171_rvs
+sp_cor 130 222 Rebellion#rm171_10
+sp_cor 113 130 Rebellion#rm171_8
+sp_cor 162 80 Magenta#171_rvs_2
+sp_cor 180 165 Rebellion#rm171_2
+sp_cor 162 173 Talisman Merchant#over_
+sp_cor 160 70 Kaya#171_rvs_2
+sp_cor 254 284 Goni#rm171_2
+sp_cor 255 285 Rookie#rm171_2
+sp_cor 164 77 Aas#171_rvs_1
+gonryun 174 101 Weapon Dealer#gon
+ra_fild11 323 185 obs rocity
+ra_fild11 323 185 obs rocity
+ra_fild11 306 207 obs rocity
+ra_fild11 306 207 obs rocity
+ra_fild11 306 207 obs rocity
+ra_fild11 297 216 obs rocity
+ra_fild11 315 150 obs rocity
+ra_fild11 321 147 obs rocity
+ra_fild11 305 127 obs rocity
+ra_fild11 288 110 obs rocity
+ra_fild11 245 85 obs rocity
+rachel 138 126 Horn
+rachel 174 138 High Priestess Niren#HM
+rachel 152 131 Sakjul
+rachel 215 71 Ledrion#rachel
+rachel 197 137 Bard#aru
+rachel 177 139 Temple Item Manager#0hm
+rachel 174 138 High Priestess Niren#HM
+rachel 152 131 Sakjul
+rachel 149 138 Maroll Battle Recruiter
+rachel 138 126 Horn
+ra_in01 176 389 Weapon Dealer#ra
+ra_fild10 357 340 Kennie#muq
+ra_fild10 357 340 Kennie#muq
+ra_fild10 352 341 Priest#mtp
+ra_fild10 357 340 Kennie#muq
+ra_fild10 352 341 Priest#mtp
+ra_fild10 357 340 Kennie#muq
+ra_fild10 352 341 Priest#mtp
+ra_fild10 179 176 Merchant#ep18_gorge
+ra_fild10 179 176 Merchant#ep18_gorge
+ra_fild10 175 179 Rope#to_oz_dun01_
+ra_fild10 179 176 Merchant#ep18_gorge
+ra_fild10 175 179 Rope#to_oz_dun01_
+ra_fild10 175 179 Rope#to_oz_dun01_
+ra_fild10 179 176 Merchant#ep18_gorge
+ra_fild10 352 341 Priest#mtp
+ra_fild10 175 179 Rope#to_oz_dun01_
+izlude_a 131 148 Eden Teleport Officer#3
+izlude_a 128 148 Kafra Employee#iz_a
+geffen 117 66 Zonda Teleportation#gef
+geffen 115 66 Kafra Teleportation#gef
+geffen 123 68 Royal Messenger#e16_ge
+geffen 124 65 Bulletin Board#2
+geffen 132 66 Eden Teleport Officer#3
+geffen 128 68 Guild Warehouse Manager
+geffen 111 48 Stacey
+gefenia01 61 173 Signpost#Geffenia1
+geffen 109 61 Dolangmal#2
+geffen 109 66 Maroll Battle Recruiter
+gefenia01 104 59 obs box
+gefenia01 234 242 obs box
+gefenia01 218 124 obs box
+rachel 40 73 Shiroan#atm7
+rachel 65 80 Vegetable Gardener#ra
+rachel 137 135 Villager#ep18_Rachel1
+rachel 138 146 Rachel Guide#rachel
+rachel 132 117 Rhehe Ravies#gq_fes03
+rachel 137 135 Villager#ep18_Rachel1
+rachel 138 146 Rachel Guide#rachel

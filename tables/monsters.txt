@@ -97,3 +97,61 @@
 1772 Isilla
 1771 Vanberk
 2775 Solid Enchanted Peach T
+21323 Grey Goat
+21323 Grey Goat
+21324 Grey Baby Wolf
+21324 Grey Baby Wolf
+1781 Drosera
+21296 Rake Hand
+21296 Rake Hand
+1781 Drosera
+1412 Taoist Hermit
+1042 Steel Chonchon
+1058 Metaller
+2367 Blue Lichtern
+2368 Yellow Lichtern
+2365 Cenere
+2366 Antique Book
+2874 Solid Cenere
+2363 Menblatt
+2364 Petal
+2083 One-Horned Scaraba
+2089 Scaraba Egg
+1374 Incubus
+1371 False Angel
+1292 Mini Demon
+1268 Bloody Knight
+1219 Abysmal Knight
+1390 Violy
+1132 Khalitzburg
+1370 Succubus
+1109 Deviruchi
+1010 Willow
+1007 Fabre
+1063 Lunatic
+1002 Poring
+1100 Argos
+1118 Flora
+1494 Beetle King
+1380 Driller
+1099 Argiope
+2892 Swift Argiope
+1083 Shining Plant
+1114 Dustiness
+1035 Hunter Fly
+20355 Heart Hunter Bellare
+20357 Heart Hunter Sanare
+20363 Venenum
+20686 Sewage Clamp
+20688 Elite Bellare
+20687 Sewage Waterfall
+20685 Sewage Venenum
+20680 Heart Hunter Skirmisher
+1088 Vocal
+1088 Vocal
+2680 Elusive Rocker
+1204 Ogretooth
+1205 Executioner
+1203 Mysteltainn
+2834 Swift False Angel
+1415 Baby Leopard

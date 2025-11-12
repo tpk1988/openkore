@@ -68,6 +68,7 @@ Metaling 0 0 0
 Vanberk 0 1 0
 Isilla 0 1 0
 Raydric 0 1 0
+Owl Marquis 0 1 0
 ##### Alchemist Summons ####
 # Summoned Parasite
 1555 0 0 0

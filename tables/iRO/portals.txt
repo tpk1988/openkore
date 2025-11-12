@@ -3303,3 +3303,9 @@ new_5-1 145 110 new_5-1 166 107
 new_5-1 158 74 new_5-1 136 112
 new_5-1 168 148 new_5-1 158 146
 new_5-1 158 146 new_5-1 168 141
+gefenia04 287 95 gefenia01 37 103
+gefenia01 37 103 gefenia04 283 95
+aldebaran 139 34 mjolnir_12 199 378
+ba_pw02 275 15 sp_cor 258 287
+sp_cor 258 287 ba_pw02 275 20
+gefenia01 199 269 gefenia01 47 103
