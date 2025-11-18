@@ -63,7 +63,7 @@ Ant's Egg 0 0 0
 PecoPeco's Egg 0 0 0
 Pupa 0 0 0
 Thief Bug's Egg 0 0 0
-
+Spark 0 1 0
 
 
 ##### Alchemist Summons ####

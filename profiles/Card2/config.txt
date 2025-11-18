@@ -20,7 +20,7 @@ poseidonTimeout 5
 bindIp
 forceMapIP
 
-# 1 = hook into RO client, 2 = Act as stand-alone proxy, proxy = act as true proxy
+# 1 = hook into RO client, 2 = Act as stand-aloprontera 29 207ne proxy, proxy = act as true proxy
 # https://openkore.com/wiki/XKore
 XKore 0
 XKore_port 7001
@@ -39,7 +39,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword kudeedro
+adminPassword veapougi
 callSign
 commandPrefix ;
 callSignGM 0
@@ -979,9 +979,9 @@ sellAuto_distance 3
 sellAuto_maxDistance
 sellAuto_npc_steps s
 
-storageAuto 0
+storageAuto 1
 storageAuto_onStart 0
-storageAuto_npc
+storageAuto_npc prontera 29 207
 storageAuto_standpoint
 storageAuto_distance 3
 storageAuto_maxDistance

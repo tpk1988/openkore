@@ -2,7 +2,7 @@ automacro AutoLootOnConnect {
     OnCharLogIn 1
     timeout 3
     call {
-        do c \@autoloot 0.5
+        do c \@autoloot 100
         log Autoloot activated
     }
 }

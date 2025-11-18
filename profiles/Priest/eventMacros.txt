@@ -9,16 +9,4 @@ automacro AutoLootOnConnect {
     }
 }
 
-automacro IzludeNPCChat1 {
-    InMap izlude
-    exclusive 1
-    timeout 5
-    call {
-        pause 1
-        do move 131 54
-        pause 1
-        do talknpc 132 54 c c r0
-        log Talked to NPC at Izlude 132 54
-    }
-}
 

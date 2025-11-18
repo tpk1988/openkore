@@ -2,8 +2,8 @@
 # The Manual is located at https://openkore.com/wiki/Manual
 
 doCommand c sp me {
-	sp < 20%
-	timeout 10
+	sp < 40%
+	timeout 5
 }
 ######## Login options and server-specific options ########
 
@@ -43,7 +43,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword kestoulo
+adminPassword driwauhi
 callSign
 commandPrefix ;
 callSignGM 0
@@ -69,7 +69,7 @@ alias_heal sp 28
 allowedMaps
 allowedMaps_reaction 1
 
-attackAuto 0
+attackAuto 2
 attackAuto_party 1
 attackAuto_onlyWhenSafe 0
 attackAuto_followTarget 1
@@ -189,7 +189,7 @@ dcOnServerClose 0
 dcOnJobLevel
 dcOnLevel
 
-follow 1
+follow HealMe
 followTarget HealMe
 followEmotion 1
 followEmotion_distance 4
@@ -197,7 +197,7 @@ followFaceDirection 0
 followDistanceMax 6
 followDistanceMin 3
 followLostStep 12
-followSitAuto 1
+followSitAuto 0
 followBot 0
 
 itemsTakeAuto 0
@@ -213,7 +213,7 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap
+lockMap iz_d05_i
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -271,14 +271,14 @@ buyerShop_random 0
 
 sitAuto_hp_lower 50
 sitAuto_hp_upper 70
-sitAuto_sp_lower 0
-sitAuto_sp_upper 0
+sitAuto_sp_lower 10
+sitAuto_sp_upper 50
 sitAuto_follow 0
 sitAuto_over_50 0
 sitAuto_idle
 sitAuto_look
 sitAuto_look_from_wall
-sitTensionRelax 0
+sitTensionRelax 1
 
 statsAddAuto 0
 statsAddAuto_list
@@ -314,7 +314,7 @@ teleportAuto_dropTarget 0
 teleportAuto_dropTargetKS 0
 teleportAuto_dropTargetHidden 0
 teleportAuto_attackedWhenSitting 0
-teleportAuto_totalDmg
+teleportAuto_totalDmg 2000
 teleportAuto_totalDmgInLock
 teleportAuto_equip_leftAccessory
 teleportAuto_equip_rightAccessory
@@ -1012,13 +1012,26 @@ getAuto {
 
 
 ######## K9 ########
-attackSkillSlot Dragon's Breath {
+attackSkillSlot 6001 {
+	lvl 10
+	sp > 5%
+
+	maxDist 5
+}
+attackSkillSlot 5004 {
 	lvl 10
 	sp > 5%
 	onAction attack
-	maxDist 6
+	notMonsters 21296
+	maxDist 5
 }
-
+attackSkillSlot 2008 {
+	lvl 10
+	sp > 5%
+	onAction attack
+	monsters 21296
+	maxDist 5
+}
 useSelf_skill Magnum Break {
 	lvl 10
 	monstersCount 1

@@ -40,7 +40,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword karodust
+adminPassword piedaswe
 callSign
 commandPrefix ;
 callSignGM 0
@@ -58,9 +58,9 @@ whenInGame_requestCashPoints 0
 
 message_length_max 80
 ######## Tpk configuration ########
-getAuto 12007 {
+getAuto 12010 {
 	minAmount 1
-	maxAmount 50
+	maxAmount 70
 	batchSize
 	passive
 	disabled 0
@@ -92,6 +92,10 @@ useSelf_item 12004 {
 	inInventory Arrow <= 500
 
 }
+useSelf_item 12012 {
+	inInventory Crystal Arrow <= 500
+
+}
 useSelf_item 12008 {
 	inInventory Fire Arrow <= 500
 
@@ -113,25 +117,28 @@ attackSkillSlot Double Strafe(Double strafing) {
 	sp > 5 %
 	disabled 1
 }
-attackSkillSlot Arrow Storm {
-	disabled 1
+attackSkillSlot 5330 {
+
+	monstersCount >2
+	monstersCountDist 2
 	lvl 10
-	maxDist 10
+	maxDist 7
 	sp > 5 %
+}
+attackSkillSlot 5334 {
+	lvl 10
+	onAction attack
+	maxDist 7
+
+	sp > 20 %
 }
 attackSkillSlot 382 {
 	lvl 5
 	onAction attack
-	maxDist 10
+	maxDist 7
 	sp > 5 %
 }
-attackSkillSlot 382 {
-	lvl 5
-	onAction attack
-	maxDist 10
-	whenStatusActive Unlimit
-	sp > 5 %
-}
+
 
 useSelf_skill 45 {
 	lvl 10
@@ -148,6 +155,15 @@ useSelf_skill No Limits {
 	sp > 40%
 	aggressives 0
 }
+useSelf_skill Calamitygale {
+	lvl 10
+	inLockOnly 1
+	onAction attack
+	whenStatusInactive Calamitygale
+	ap > 125
+	aggressives 0
+}
+
 useSelf_skill Fear Breeze {
 	lvl 5
 	sp > 70%
@@ -248,7 +264,7 @@ autoConfChange {
 	joblvl
 }
 doCommand c sp me {
-	sp < 20%
+	sp < 40%
 	timeout 10
 }
 autoMakeArrows 0
@@ -330,7 +346,7 @@ cartMaxWeight 7900
 itemsTakeGreed 0
 itemsCheckWeight 1
 
-lockMap ra_fild10
+lockMap iz_d05_i
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -362,7 +378,7 @@ maxWalkPathDistance 17
 
 runFromTarget 0
 runFromTarget_inAdvance 0
-runFromTarget_dist 5
+runFromTarget_dist 3
 runFromTarget_minStep 7
 runFromTarget_maxPathDistance 13
 runFromTarget_noAttackMethodFallback 0
@@ -387,9 +403,9 @@ buyerShopAuto_open 0
 buyerShop_random 0
 
 sitAuto_hp_lower 10
-sitAuto_hp_upper 20
-sitAuto_sp_lower 10
-sitAuto_sp_upper 40
+sitAuto_hp_upper 30
+sitAuto_sp_lower 20
+sitAuto_sp_upper 50
 sitAuto_follow 0
 sitAuto_over_50 0
 sitAuto_idle 0
@@ -1100,7 +1116,7 @@ sellAuto_npc_steps s
 
 storageAuto 1
 storageAuto_onStart 0
-storageAuto_npc rachel 109 138
+storageAuto_npc izlude 128 148
 storageAuto_standpoint
 storageAuto_distance 3
 storageAuto_maxDistance

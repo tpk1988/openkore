@@ -4,6 +4,10 @@ prt_fild08c.rsw#Prontera field#
 prt_fild08b.rsw#Prontera field#
 prt_fild08a.rsw#Prontera field#
 
+oz_dun01.rsw#Oz Labyrinth 1F#
+iz_d04_i.rsw#Illusion of Underwater 1F#
+iz_d05_i.rsw#Illusion of Underwater 2F#
+
 iz_ac01_d.rsw#Academy1st floor#
 iz_ac02_d.rsw#Academy2nd floor#
 iz_ac01_c.rsw#Academy1st floor#
@@ -90,6 +94,7 @@ mal_dun01.rsw#Starry Coral Area#
 2@pump.rsw#Culvert#
 dic_dun03.rsw#Skarava hall#
 que_house_s.rsw#Weird house#
+
 
 bif_fild01.rsw#Bifrost Bridge#
 bif_fild02.rsw#Bifrost Bridge#
@@ -861,7 +866,7 @@ morocc_mem.rsw#Memory of Morroc#
 payon_mem.rsw#Memory of Payon#
 moc_paraup.rsw#Inside of Paradise Group Building in Morroc 2nd floor#
 
-//공성전 TE 복사맵 
+//공성전 TE 복사맵
 te_prt_gld.rsw#Gloria#
 te_prtcas01.rsw#Gaebolg#
 te_prtcas02.rsw#Richard#
@@ -991,7 +996,7 @@ gef_d01_i.rsw#250 Page#
 
 1@jtb.rsw#The Shadowed Dream#
 
-//Episode 17.1 Quickening, Illusion 
+//Episode 17.1 Quickening, Illusion
 1@cor.rsw#Cor Memorial#
 1@os_a.rsw#Os Occupation#
 1@os_b.rsw#Blockaded Os#

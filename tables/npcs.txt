@@ -777,3 +777,65 @@ rachel 138 146 Rachel Guide#rachel
 rachel 132 117 Rhehe Ravies#gq_fes03
 rachel 137 135 Villager#ep18_Rachel1
 rachel 138 146 Rachel Guide#rachel
+oz_dun01 284 164 Rope#to_ra_fild10
+oz_dun01 285 170 Horim#ep1812
+oz_dun01 285 169 #ep18w04
+oz_dun01 284 164 Rope#to_ra_fild10
+oz_dun01 285 170 Horim#ep1812
+oz_dun01 285 169 #ep18w04
+oz_dun01 110 37 #ep18_sb2
+oz_dun01 134 56 Box#ep18_sb2
+oz_dun01 134 56 Box#ep18_sb2
+oz_dun01 28 190 Rope#to_gw_fild01
+oz_dun01 27 184 #ep18_sb1
+oz_dun01 111 96 Steaming Hole#ep18_sb1
+oz_dun01 111 96 Steaming Hole#ep18_sb1
+oz_dun01 111 96 Steaming Hole#ep18_sb1
+oz_dun01 100 92 ???#ep18_sb1
+oz_dun01 100 92 ???#ep18_sb1
+oz_dun01 111 96 Steaming Hole#ep18_sb1
+oz_dun01 100 92 ???#ep18_sb1
+oz_dun01 100 92 ???#ep18_sb1
+oz_dun01 134 56 Box#ep18_sb2
+oz_dun01 220 118 Miriam#c12_01
+oz_dun01 65 189 Steep Road#ep18_sb1
+oz_dun01 219 117 Ira#c12_01
+oz_dun01 65 189 Steep Road#ep18_sb1
+oz_dun01 68 284 Box#ep18_sb1
+oz_dun01 110 37 #ep18_sb2
+oz_dun01 65 189 Steep Road#ep18_sb1
+oz_dun01 65 189 Steep Road#ep18_sb1
+oz_dun01 223 116 Appointment Point#c12_e
+oz_dun01 110 37 #ep18_sb2
+oz_dun01 220 118 Miriam#c12_01
+oz_dun01 68 284 Box#ep18_sb1
+oz_dun01 68 284 Box#ep18_sb1
+oz_dun01 223 120 Suad#c12_01
+oz_dun01 223 120 Suad#c12_01
+oz_dun01 223 120 Suad#c12_01
+oz_dun01 225 119 Maram#c12_01
+oz_dun01 225 119 Maram#c12_01
+oz_dun01 225 119 Maram#c12_01
+oz_dun01 223 120 Suad#c12_01
+oz_dun01 225 119 Maram#c12_01
+geffen 145 64 Chef Assistant#cmd
+oz_dun02 152 276 #ep18_sb3
+oz_dun02 152 276 #ep18_sb3
+oz_dun02 143 231 Old Man#ep18_sb1
+oz_dun02 152 276 #ep18_sb3
+rachel 151 155 Kid#2rachel
+rachel 176 145 Dream#poent
+rachel 142 152 Assistant Mumuz#ra
+rachel 142 155 Carbonated Water Vendin
+moc_para01 44 27 obs POE
+moc_para01 44 27 obs POE
+moc_para01 33 17 obs POE
+moc_para01 32 16 obs POE
+moc_para01 34 21 obs POE
+moc_para01 32 16 obs POE
+moc_para01 34 20 obs POE
+prt_fild05 308 325 obs boxx
+iz_d05_i 138 186 Kena#Kena
+iz_d05_i 141 188 Guardian#guard2
+izlude 138 163 Point Merchant#Izlude
+izlude 138 163 Point Merchant#Izlude

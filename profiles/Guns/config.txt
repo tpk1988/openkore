@@ -1,7 +1,7 @@
 # Please Read the Users Manual
 # The Manual is located at https://openkore.com/wiki/Manual
 ############Guns Skill#################
-getAuto 22749 {
+getAuto 23125 {
 	minAmount 1
 	maxAmount 50
 	batchSize
@@ -110,7 +110,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword kespinou
+adminPassword vilikait
 callSign
 commandPrefix ;
 callSignGM 0
@@ -817,6 +817,7 @@ useSelf_skill {
 doCommand c sp me {
 	sp < 30%
 	timeout 10
+	disabled 1
 }
 useSelf_skill_smartHeal 1
 

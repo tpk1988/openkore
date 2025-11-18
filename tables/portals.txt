@@ -22,6 +22,7 @@ c_tower1 232 222 c_tower3_ 65 147 10000 c c r2 r1
 c_tower3_ 59 148 c_tower1 0 c c r1 c c
 prontera 146 95 ecl_tdun01  c r0 c
 
+
 # VIP Warps
 #yuno 142 183 prontera 116 72 1800 c c c c c r0
 #yuno 142 183 izlude 94 103 1800 c c c c c r1

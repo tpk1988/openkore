@@ -65,6 +65,7 @@ Pupa 0 0 0
 Thief Bug's Egg 0 0 0
 Thief Bug Egg 0 0 0
 1048 0 0 0
+21297 0 1 0
 
 ##### Alchemist Summons ####
 # Summoned Parasite

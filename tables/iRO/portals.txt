@@ -24,6 +24,9 @@ geffen 129 46 gefenia01 40 103 0 c
 geffenia01 37 103 geffenia04 283 95
 c_tower1 232 222 c_tower3_ 65 147 10000 c c r2 r1
 c_tower3_ 59 148 c_tower1 0 c c r1 c c
+ra_fild10 175 179 oz_dun01 284 167 0 c r0
+izlude 132 54 iz_d04_i 130 227 0 c c r0 c
+iz_d04_i 129 232 iz_d05_i 141 186 0 c r0 c
 
 
 # VIP Warps
@@ -3309,3 +3312,8 @@ aldebaran 139 34 mjolnir_12 199 378
 ba_pw02 275 15 sp_cor 258 287
 sp_cor 258 287 ba_pw02 275 20
 gefenia01 199 269 gefenia01 47 103
+oz_dun01 112 30 oz_dun01 112 30
+oz_dun02 142 284 oz_dun01 112 30
+oz_dun01 112 30 oz_dun02 142 279
+oz_dun02 142 284 oz_dun01 112 30
+oz_dun01 112 30 oz_dun02 142 279
