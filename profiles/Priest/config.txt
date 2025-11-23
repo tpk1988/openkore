@@ -78,7 +78,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword spietroc
+adminPassword stiechea
 callSign
 commandPrefix ;
 callSignGM 0
@@ -103,17 +103,50 @@ partySkill EXPIATIO / Expiation {
 	sp > 10 %
 	timeout 70
 }
+partySkill Mediale Votum {
+	lvl 5
+	target_hp < 95%
+	target_timeout 60
+	target_whenStatusInactive Critical Wound
+	sp > 10 %
+}
 partySkill Heal {
 	lvl 10
 	target_hp < 90%
 	target_whenStatusInactive Critical Wound
 	sp > 10 %
 }
+partySkill Benedictum {
+	lvl 5
+	target_timeout 240
 
+	sp > 10 %
+}
+partySkill 5275 {
+	lvl 5
+	target_timeout 240
+	target
+
+	sp > 10 %
+}
+
+partySkill Argutus Telum {
+	lvl 5
+	target_timeout 240
+	target
+
+	sp > 10 %
+}
+partySkill Religio {
+	lvl 5
+	target_timeout 240
+	target
+	sp > 10 %
+}
 partySkill Cantocandidus {
 	lvl 10
 	sp > 45
-	notInTown 0
+	notInTown 1
 	timeout 3
 	target_whenStatusInactive Increase AGI
 	target_timeout 240
