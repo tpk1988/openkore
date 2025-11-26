@@ -840,3 +840,4 @@ iz_d05_i 141 188 Guardian#guard2
 izlude 138 163 Point Merchant#Izlude
 izlude 138 163 Point Merchant#Izlude
 izlude 96 125 Enchanter Mounds#iz
+moc_para01 33 162 Ripped Callus#ed

@@ -1,0 +1,46 @@
+########## OPEN STORAGE ##########
+automacro OpenStorage {
+    timeout 10
+    CharCurrentWeight < 50%
+    StorageOpened 0
+    call {
+        do move moc_para01 10 184
+        do talknpc 10 185 c r1
+        pause 1
+    }
+}
+
+########## SUBMACRO GET ITEM ##########
+macro tryGet {
+    $name = $.param[0]
+    $amount = $.param[1]
+
+    if (&storamount("$name") > 0) {
+        do storage get "$name" $amount
+        pause 0.8
+    } else {
+        log [AutoGet] $name đã hết trong storage — bỏ qua.
+    }
+}
+
+########## AUTO GET ##########
+automacro AutoGet {
+    StorageOpened 1
+    CharCurrentWeight < 90%
+    call {
+        call tryGet 2650 1
+
+
+    }
+}
+
+########## AUTO SELL ##########
+automacro AutoSell {
+    StorageOpened 1
+    CharCurrentWeight > 90%
+    call {
+        do storage close
+        pause 1
+        do autosell
+    }
+}
