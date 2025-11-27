@@ -1,0 +1,26 @@
+# Biến chỉ mục hiện tại
+$i = 0
+
+macro tryGet {
+    if ($i == "") $i = 0
+
+    $oldWeight = $.weight
+
+    # item lấy theo parameter
+    $item = $.param[$i]
+
+    if ($item == "") {
+        log [AutoGet] Không còn item nào trong danh sách.
+        stop
+    }
+
+    log [AutoGet] Thử lấy: $item
+    do storage get "$item" 1
+
+    pause 1
+
+    if ($oldWeight == $.weight) {
+        $i = @eval($i + 1)
+        log [AutoGet] Hết $item → chuyển sang item thứ $i
+    }
+}

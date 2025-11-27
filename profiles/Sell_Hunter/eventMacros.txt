@@ -10,29 +10,19 @@ automacro OpenStorage {
     }
 }
 
-########## SUBMACRO GET ITEM ##########
-macro tryGet {
-    $name = $.param[0]
-    $amount = $.param[1]
 
-    if (&storamount("$name") > 0) {
-        do storage get "$name" $amount
-        pause 0.8
-    } else {
-        log [AutoGet] $name đã hết trong storage — bỏ qua.
-    }
-}
 
 ########## AUTO GET ##########
 automacro AutoGet {
-    StorageOpened 1
-    CharCurrentWeight < 90%
-    call {
-        call tryGet 2650 1
-
-
-    }
+	StorageOpened 1
+	CharCurrentWeight < 90%
+	timeout 1.5
+	# Truyền danh sách item vào đây
+	call tryGet "Morrigane's Pendant" "Rosary" "Item3"
 }
+
+
+
 
 ########## AUTO SELL ##########
 automacro AutoSell {

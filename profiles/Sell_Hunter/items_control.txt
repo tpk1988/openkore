@@ -44,4 +44,4 @@ Brionac 0 0 1
 Base Guitar [1] 0 0 1
 Huuma Swirling Petal [2] 0 0 1
 
-Morrigane's Pendant (Armor) 0 0 1
+Morrigane's Pendant 0 0 1
